@@ -1,0 +1,56 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  background-color:azure;
+}
+#search
+{
+  width: 80rem;
+  height: 40px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 25px;
+  background-color: aliceblue;
+}
+#btn
+{
+  height: 40px;
+  width: 10rem;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 100px;
+  color: white;
+  font-weight: 400;
+  font-size:20px ;
+}
+  .flex-container 
+  {
+   
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  overflow-y: auto;
+    
+}
+.poster
+{
+  width: 150px; 
+  height: 300px; 
+  margin: 100px; 
+  display: flex;
+}
+#post
+{
+  border-radius: 30px;
+}
+.error
+{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+
+}
