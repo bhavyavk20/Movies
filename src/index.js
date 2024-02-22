@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
    <BrowserRouter>
    <Routes>
-    <Route path='movie' element={<Movie/>}/>
+    <Route path='/' element={<Movie/>}/>
     <Route path='details/:id' element={<Details/>}/>
 
    </Routes>
